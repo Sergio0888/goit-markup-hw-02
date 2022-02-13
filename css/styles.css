@@ -1,0 +1,15 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+
+}
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    color: #2196F3;
+}
+.logo > span {
+    color: #2196F3;
+}
