@@ -3,8 +3,7 @@ body {
     font-family: 'Roboto','Montserrat', sans-serif;
     color:#212121;
 }
-.navi .link:hover,
-.navi .link:focus {
+a:hover {
   color: #2196f3;
 }
 .logo {
