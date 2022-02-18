@@ -18,7 +18,8 @@ a:hover {
 }
 button:hover,
 button:focus {
-    color: #2196f3;
+    color: #ffffff;
+    background-color: #2196f3;
 }
 button {
     cursor: pointer;
