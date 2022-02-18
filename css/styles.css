@@ -20,3 +20,6 @@ button:hover,
 button:focus {
     color: #2196f3;
 }
+button {
+    cursor: pointer;
+}
