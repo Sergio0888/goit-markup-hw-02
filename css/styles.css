@@ -15,3 +15,7 @@ body {
 .logo > span {
     color: #2196f3;
 }
+.navi .link:hover,
+.navi .link:focus {
+  color: #2196f3;
+}
