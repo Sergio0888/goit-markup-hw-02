@@ -2,8 +2,10 @@ body {
     background-color: #ffffff;
     font-family: 'Roboto','Montserrat', sans-serif;
     color:#212121;
-
-
+}
+.navi .link:hover,
+.navi .link:focus {
+  color: #2196f3;
 }
 .logo {
     font-family: 'Raleway','Montserrat', sans-serif;
@@ -14,8 +16,4 @@ body {
 }
 .logo > span {
     color: #2196f3;
-}
-.navi .link:hover,
-.navi .link:focus {
-  color: #2196f3;
 }
