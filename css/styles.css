@@ -87,8 +87,8 @@ body {
     cursor: pointer;
     background-color: #F5F4FA;
 }
-.list-button:hover,
-.list-button:focus {
+.button-menu > button:hover,
+.button-menu > button:focus {
     color: #ffffff;
     background-color: #2196f3;
 }
@@ -118,4 +118,13 @@ body {
 }
 .link {
     text-decoration: none;
+    color: #212121;
+}
+.link-ad {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+.link-ad:hover,
+.link-ad:focus {
+    color: #2196F3;
 }
