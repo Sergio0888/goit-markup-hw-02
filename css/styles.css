@@ -38,6 +38,7 @@ body {
     font-size: 14px;
     line-height: 1.72;
     list-style:none;
+    color: var(--brandColor)
 }
 .menubutton > h1 {
     font-weight: 900;
