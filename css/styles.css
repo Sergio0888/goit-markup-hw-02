@@ -82,11 +82,11 @@ body {
     color: #757575;
 }
 .button-menu button {
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     line-height: 1.62;
     cursor: pointer;
     background-color: #F5F4FA;
-    list-style:none;
 }
 .button-menu button:hover,
 .button-menu button:focus {
@@ -124,4 +124,7 @@ body {
 .link-ad:hover,
 .link-ad:focus {
     color: #2196F3;
+}
+.button-menu li {
+    list-style:none;
 }
