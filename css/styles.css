@@ -13,6 +13,7 @@ body {
     font-size: 26px;
     line-height: 1.20;
     color: #212121;
+    list-style:none;
 }
 .logo > span {
     color: #2196f3;
@@ -32,6 +33,7 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.72;
+    list-style:none;
 }
 .menubutton > h1 {
     font-weight: 900;
@@ -39,7 +41,7 @@ body {
     line-height: 1.36;
     color: #FFFFFF;
 }
-.mainbutton {
+.menubutton > .mainbutton {
     font-weight: bold;
     font-size: 16px;
     line-height: 1.87;
@@ -96,4 +98,19 @@ body {
 .contact > .link:hover,
 .contact > .link:focus {
     color: #2196F3;
+}
+.links {
+    list-style:none;
+}
+.menumain {
+    list-style:none;
+}
+.team {
+    list-style:none;
+}
+.button-menu {
+    list-style:none;
+}
+.menu {
+    list-style:none;
 }
