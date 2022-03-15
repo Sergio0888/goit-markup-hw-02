@@ -5,7 +5,6 @@ body {
     font-size: 14px;
     line-height: 1.15;
     color:#212121;
-    list-style:none;
 }
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -29,7 +28,7 @@ body {
     line-height: 1.87;
     color: #757575;
 }
-.contact > address {
+.contact {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.72;
@@ -79,13 +78,22 @@ body {
     line-height: 1.19;
     color: #757575;
 }
-.list-button {
+.button-menu > .list-button {
     font-weight: 500;
     line-height: 1.62;
     cursor: pointer;
     background-color: #F5F4FA;
 }
-.list-button:hover,
-.list-button:focus {
+.button-menu > .list-button:hover,
+.button-menu > .list-button:focus {
     color: #ffffff;
     background-color: #2196f3;
+}
+.links > .link:hover,
+.links > .link:focus {
+    color: #2196F3;
+}
+.contact > .link:hover,
+.contact > .link:focus {
+    color: #2196F3;
+}
