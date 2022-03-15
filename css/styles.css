@@ -121,6 +121,7 @@ body {
 }
 .link-ad {
     text-decoration: none;
+    color: var(--brandColor)
 }
 .link-ad:hover,
 .link-ad:focus {
