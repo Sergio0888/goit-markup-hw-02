@@ -1,11 +1,14 @@
 body {
-    background-color: #ffffff;
+    background-color: var(--brandColor);
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.15;
     color:#212121;
 }
+:root {
+    --brandColor: #ffffff;
+  }
 .logo {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -40,14 +43,14 @@ body {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    color: #FFFFFF;
+    color: var(--brandColor);
 }
 .menubutton > .mainbutton {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 16px;
     line-height: 1.87;
-    color: #FFFFFF;
+    color: var(--brandColor);
     background-color: #2196F3;
     cursor: pointer;
 }
@@ -91,7 +94,7 @@ body {
 }
 .button-menu button:hover,
 .button-menu button:focus {
-    color: #ffffff;
+    color: var(--brandColor);
     background-color: #2196f3;
 }
 .link:hover,
