@@ -46,7 +46,7 @@ body {
     color: var(--brandColor);
 }
 .menubutton > .mainbutton {
-    font-family: 'Roboto', sans-serif;
+    font-family: inherit;
     font-weight: bold;
     font-size: 16px;
     line-height: 1.87;
@@ -86,7 +86,7 @@ body {
     color: #757575;
 }
 .button-menu button {
-    font-family: 'Roboto', sans-serif;
+    font-family: inherit;
     font-weight: 500;
     line-height: 1.62;
     cursor: pointer;
