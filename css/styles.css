@@ -100,15 +100,11 @@ body {
     text-decoration: none;
     list-style:none;
 }
-.menumain {
+.menumain li {
     text-decoration: none;
     list-style:none;
 }
-.team {
-    text-decoration: none;
-    list-style:none;
-}
-.button-menu {
+.team li {
     text-decoration: none;
     list-style:none;
 }
