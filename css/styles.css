@@ -120,6 +120,8 @@ body {
     color: #212121;
 }
 .link-ad {
+    font-size: 14px;
+    line-height: 1.72;
     text-decoration: none;
     color: var(--brandColor)
 }
