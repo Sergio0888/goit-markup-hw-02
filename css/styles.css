@@ -100,17 +100,22 @@ body {
     color: #2196F3;
 }
 .links {
+    text-decoration: none;
     list-style:none;
 }
 .menumain {
+    text-decoration: none;
     list-style:none;
 }
 .team {
+    text-decoration: none;
     list-style:none;
 }
 .button-menu {
+    text-decoration: none;
     list-style:none;
 }
 .menu {
+    text-decoration: none;
     list-style:none;
 }
