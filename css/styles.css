@@ -154,6 +154,3 @@ body {
 .linkct:focus {
     color: var(--brandcolortwo);
 }
-.links .link:active {
-    color: var(--brandcolortwo);
-}
