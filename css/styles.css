@@ -84,19 +84,16 @@ body {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
-    text-align: center;
 }
 .team h3 {
     font-size: 16px;
     line-height: 1.19;
-    text-align: center;
 }
 .team p {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     color: var(--brandcolorone);
-    text-align: center;
 }
 .button-menu button {
     font-family: inherit;
@@ -159,7 +156,7 @@ body {
 .linkct:focus {
     color: var(--brandcolortwo);
 }
-.links .link:active {
+.link:active {
     color: var(--brandcolortwo);
 }
 .button-menu .button-one {
