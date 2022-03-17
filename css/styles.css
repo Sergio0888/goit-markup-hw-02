@@ -199,13 +199,22 @@ body {
     background-color: #F5F4FA;
 }
 .team li {
-    position: absolute;
     width: 270px;
     height: 368px;
-    left: 215px;
-    top: 1635px;
     background-color:  var(--brandColor);   
 }
 .foot {
     background-color: #2F303A;
 }
+.logotwo {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.20;
+    color: var(--brandColor);
+    text-decoration: none;
+}
+.logotwo > span {
+    color: var(--brandcolortwo);
+    text-decoration: none;
