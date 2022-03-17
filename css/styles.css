@@ -12,9 +12,6 @@ body {
 :root {
     --brandcolortwo: #2196f3;
 }
-:root {
-    --brandcolorone: #757575;
-}
 .logo {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -157,4 +154,7 @@ body {
 }
 .link:active {
     color: var(--brandcolortwo);
+}
+:root {
+    --brandcolorone: #757575;
 }
