@@ -156,7 +156,7 @@ body {
 .linkct:focus {
     color: var(--brandcolortwo);
 }
-.link:active {
+.links .link:active {
     color: var(--brandcolortwo);
 }
 .button-menu .button-one {
@@ -194,4 +194,18 @@ body {
     height: 38px;
     left: 976px;
     top: 174px;
+}
+.team {
+    background-color: #F5F4FA;
+}
+.team li {
+    position: absolute;
+    width: 270px;
+    height: 368px;
+    left: 215px;
+    top: 1635px;
+    background-color:  var(--brandColor);   
+}
+.foot {
+    background-color: #2F303A;
 }
