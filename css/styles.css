@@ -12,6 +12,9 @@ body {
 :root {
     --brandcolortwo: #2196f3;
 }
+:root {
+    --brandcolorone: #757575;
+}
 .logo {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -34,7 +37,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
-    color: #757575;
+    color: var(--brandcolorone);
 }
 .contact {
     font-weight: 400;
@@ -74,7 +77,7 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    color: #757575;
+    color: var(--brandcolorone);
 }
 .team > h2 {
     font-weight: 700;
@@ -89,7 +92,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
-    color: #757575;
+    color: var(--brandcolorone);
 }
 .button-menu button {
     font-family: inherit;
@@ -144,7 +147,7 @@ body {
     list-style:none;
 }
 .linkct {
-    color: #757575;
+    color: var(--brandcolorone);
     text-decoration: none;
     list-style:none;
 }
