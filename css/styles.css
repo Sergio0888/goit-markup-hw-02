@@ -34,7 +34,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
-    color: var(--brandcolorone);
+    color: #757575;
 }
 .contact {
     font-weight: 400;
@@ -89,7 +89,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
-    color: var(--brandcolorone);
+    color: #757575;
 }
 .button-menu button {
     font-family: inherit;
@@ -144,7 +144,7 @@ body {
     list-style:none;
 }
 .linkct {
-    color: var(--brandcolorone);
+    color: #757575;
     text-decoration: none;
     list-style:none;
 }
@@ -154,7 +154,4 @@ body {
 }
 .link:active {
     color: var(--brandcolortwo);
-}
-:root {
-    --brandcolorone: #757575;
 }
