@@ -71,6 +71,7 @@ body {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.15;
+    text-transform: uppercase;
 }
 .menumain p {
     font-weight: 400;
