@@ -111,7 +111,7 @@ body {
 .link:focus {
     color: var(--brandcolortwo);
 }
-.links a:active {
+.links .link:active {
     color: var(--brandcolortwo);
 }
 .links {
