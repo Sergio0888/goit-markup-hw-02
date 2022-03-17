@@ -149,8 +149,12 @@ body {
 .linkct {
     color: var(--brandcolorone);
     text-decoration: none;
+    list-style:none;
 }
 .linkct:hover,
 .linkct:focus {
+    color: var(--brandcolortwo);
+}
+.link:active {
     color: var(--brandcolortwo);
 }
