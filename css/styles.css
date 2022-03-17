@@ -9,6 +9,12 @@ body {
 :root {
     --brandColor: #ffffff;
   }
+:root {
+    --brandcolortwo: #2196f3;
+}
+:root {
+    --brandcolorone: #757575;
+}
 .logo {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -19,7 +25,7 @@ body {
     text-decoration: none;
 }
 .logo > span {
-    color: #2196f3;
+    color: var(--brandcolortwo);
     text-decoration: none;
 }
 .menu  h2 {
@@ -53,7 +59,7 @@ body {
     font-size: 16px;
     line-height: 1.87;
     color: var(--brandColor);
-    background-color: #2196F3;
+    background-color: var(--brandcolortwo);
     cursor: pointer;
 }
 .menumain > h2 {
@@ -97,11 +103,11 @@ body {
 .button-menu button:hover,
 .button-menu button:focus {
     color: var(--brandColor);
-    background-color: #2196f3;
+    background-color: var(--brandcolortwo);
 }
 .link:hover,
 .link:focus {
-    color: #2196F3;
+    color: var(--brandcolortwo);
 }
 .links {
     text-decoration: none;
@@ -123,15 +129,27 @@ body {
     font-size: 14px;
     line-height: 1.72;
     text-decoration: none;
-    color: var(--brandColor)
+    color: var(--brandColor);
 }
 .link-ad:hover,
 .link-ad:focus {
-    color: #2196F3;
+    color: var(--brandcolortwo);
 }
 .button-menu li {
     list-style:none;
 }
 .menumain li {
     list-style:none;
+}
+.linkscontact .linkct {
+    text-decoration: none;
+    list-style:none;
+}
+.linkct {
+    color: var(--brandcolorone);
+    list-style:none;
+}
+.linkct:hover,
+.linkct:focus {
+    color: var(--brandcolortwo);
 }
