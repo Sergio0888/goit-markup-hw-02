@@ -66,6 +66,7 @@ body {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
+    text-align: center;
 }
 .menumain h3 {
     font-weight: 700;
@@ -83,16 +84,19 @@ body {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
+    text-align: center;
 }
-.team > h3 {
+.team h3 {
     font-size: 16px;
     line-height: 1.19;
+    text-align: center;
 }
-.team > p {
+.team p {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     color: var(--brandcolorone);
+    text-align: center;
 }
 .button-menu button {
     font-family: inherit;
@@ -154,4 +158,43 @@ body {
 .linkct:hover,
 .linkct:focus {
     color: var(--brandcolortwo);
+}
+.links .link:active {
+    color: var(--brandcolortwo);
+}
+.button-menu .button-one {
+    position: absolute;
+    width: 73px;
+    height: 38px;
+    left: 495px;
+    top: 174px;
+}
+.button-menu .button-two {
+    position: absolute;
+    width: 128px;
+    height: 38px;
+    left: 576px;
+    top: 174px;
+}
+.button-menu .button-three {
+    position: absolute;
+    width: 145px;
+    height: 38px;
+    left: 712px;
+    top: 174px;
+}
+.button-menu .button-four {
+    position: absolute;
+    width: 103px;
+    height: 38px;
+    left: 865px;
+    top: 174px;
+    
+}
+.button-menu .button-five {
+    position: absolute;
+    width: 130px;
+    height: 38px;
+    left: 976px;
+    top: 174px;
 }
