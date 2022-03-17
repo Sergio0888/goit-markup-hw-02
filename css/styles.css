@@ -142,19 +142,19 @@ body {
 .menumain li {
     list-style:none;
 }
-.linkscontact .linkct {
-    text-decoration: none;
+.linkscontact {
+    text-decoration:none;
     list-style:none;
 }
 .linkct {
     color: var(--brandcolorone);
-    text-decoration: none;
+    text-decoration:none;
     list-style:none;
 }
 .linkct:hover,
 .linkct:focus {
     color: var(--brandcolortwo);
 }
-.link:active {
+.links .link:active {
     color: var(--brandcolortwo);
 }
