@@ -8,12 +8,8 @@ body {
 }
 :root {
     --brandColor: #ffffff;
-  }
-:root {
-    --brandcolortwo: #2196f3;
-}
-:root {
     --brandcolorone: #757575;
+    --brandcolortwo: #2196f3;
 }
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -98,6 +94,7 @@ body {
 .button-menu button {
     font-family: inherit;
     font-weight: 500;
+    font-size: 16px;
     line-height: 1.62;
     cursor: pointer;
     background-color: #F5F4FA;
@@ -229,4 +226,11 @@ body {
 .linkone {
     text-decoration: none;
     color: var(--brandcolortwo);
+}
+.adr {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--brandColor);
 }
