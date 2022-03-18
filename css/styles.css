@@ -222,3 +222,11 @@ body {
     color: var(--brandcolortwo);
     text-decoration: none;
 }
+.linkone:hover,
+.linkone:focus {
+    color: var(--brandcolortwo);
+}
+.linkone {
+    text-decoration: none;
+    color: var(--brandcolortwo);
+}
